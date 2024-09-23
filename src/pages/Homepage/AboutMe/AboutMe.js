@@ -29,7 +29,7 @@ const AboutMe = () => {
         </p>
         <div className="flex">
           <a
-            href="https://drive.google.com/file/d/1dtiaAwu8YeT-zqNgdOW8r2h_8qYswc4U/view?usp=sharing"
+            href="https://drive.google.com/file/d/17gWrzoGZukbz-7sZjjRH8crbxzbHWmG7/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >

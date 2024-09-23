@@ -9,14 +9,14 @@ const Experience = () => {
   }
   const experience = [
     {
-      duration: "September 2023 - Present",
-      company: "EBIW INFO ANALYTICS PRIVATE LIMITED",
-      role: "Sr. Software Engineer",
+      duration: "July 2024 - Present",
+      company: "FinTechHub Limited",
+      role: "Principal Software Engineer",
       description:
         "Led the full-stack development process for new web applications, translating user needs into actionable business requirements. Delivered successful Proof-of-Concepts (PoCs), prototypes, Minimum Viable Products (MVPs), and pilot roll-outs with iterative user testing and validation. Possess extensive experience (4+ years) as a Full-Stack Developer utilizing JavaScript/Python and their frameworks. Built web applications from scratch, ensuring functionality, responsiveness, and user-friendliness across various devices.",
     },
     {
-      duration: "July 2019 - September 2023",
+      duration: "July 2019 - June 2024",
       company: "LEADS Corporation Limited",
       role: "Sr. Software Engineer",
       description:
@@ -41,6 +41,18 @@ const Experience = () => {
       company: "EAST WEST UNIVERSITY",
       role: "B.Sc. in Electrical and Electronic Engineering",
       description: "CGPA: 3.04",
+    },
+    {
+      duration: "2009 - 2011",
+      company: "Rangpur Government College",
+      role: "Science",
+      description: "GPA: 4.50",
+    },
+    {
+      duration: "2009 - 2011",
+      company: "Rangpur Zilla School",
+      role: "Science",
+      description: "GPA: 5.00",
     },
   ]
   return (
