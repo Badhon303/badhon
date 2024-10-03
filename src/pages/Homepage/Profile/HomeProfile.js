@@ -1,5 +1,5 @@
 import React from "react"
-import profile from "../../../assets/images/badhon.jpg"
+import profile from "../../../assets/images/badhon-ai.png"
 
 const HomeProfile = () => {
   return (
@@ -18,7 +18,7 @@ const HomeProfile = () => {
         <img
           src={profile}
           alt=""
-          className="h-[250px] w-[250px] object-cover rounded-3xl md:ml-auto mx-auto"
+          className="h-[350px] w-[300px] object-cover rounded-3xl md:ml-auto mx-auto"
         />
       </div>
     </div>

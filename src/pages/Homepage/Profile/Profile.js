@@ -1,5 +1,5 @@
 import React from "react"
-import profile from "../../../assets/images/badhon.jpg"
+import profile from "../../../assets/images/badhon-ai.png"
 import SocialLinks from "../../../components/SocialLinks"
 
 const Profile = () => {
@@ -16,7 +16,7 @@ const Profile = () => {
       <img
         src={profile}
         alt=""
-        className="h-[400px] w-[250px] object-cover rounded-3xl mx-auto"
+        className="h-[400px] w-[300px] object-cover rounded-3xl mx-auto"
       />
       <div className="flex flex-col items-center">
         <h2 className="text-white text-lg mt-8">Badhon.Alam303@gmail.com</h2>
