@@ -50,7 +50,7 @@ const MySkills = () => {
         {
           id: 5,
           name: "Tailwind CSS",
-          icon: "https://static-00.iconduck.com/assets.00/file-type-tailwind-icon-512x307-l0anq79h.png",
+          icon: "https://i.postimg.cc/Jhn5zv5k/pngwing-com.png",
         },
         {
           id: 6,

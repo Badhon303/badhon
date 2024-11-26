@@ -23,7 +23,7 @@ const Blogs = () => {
       <SectionTitle props={props} />
       <SectionHead>
         Dev <span className="text-primary">Blogs</span>
-        <div className="flex lg:flex-row md:flex-row flex-col-reverse gap-4 sticky top-0 z-10 bg-base-100 lg:pt-16 lg:pb-8 pt-4 pb-6">
+        <div className="flex lg:flex-row md:flex-row flex-col-reverse gap-4 sticky top-0 z-10 lg:pt-16 lg:pb-8 pt-4 pb-6">
           <div className="lg:w-1/2 md:w-1/2 relative lg:block md:block hidden">
             <input
               type="text"
