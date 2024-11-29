@@ -15,7 +15,7 @@ const AboutMe = () => {
         <span className="text-primary">Continuous Learning</span>
       </SectionHead>
       <div data-aos="fade-up" data-aos-delay={"40"}>
-        <p className="text-accent text-justify max-w-[800px]">
+        <p className="text-white text-justify max-w-[800px]">
           I discovered a passion for web development early on, and the challenge
           of creating functional and visually appealing experiences continues to
           drive me. With over 5 years of experience, I excel in both front-end

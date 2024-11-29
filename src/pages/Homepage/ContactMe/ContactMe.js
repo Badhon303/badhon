@@ -56,7 +56,7 @@ const ContactMe = () => {
               name="user_name"
               type="text"
               placeholder="Your Name"
-              className="input w-full px-0 focus:outline-none"
+              className="input w-full focus:outline-none ps-2"
               required
             />
           </div>
@@ -69,7 +69,7 @@ const ContactMe = () => {
               name="user_email"
               type="email"
               placeholder="Your Email"
-              className="input w-full px-0 focus:outline-none"
+              className="input w-full focus:outline-none"
               required
             />
           </div>
@@ -79,7 +79,7 @@ const ContactMe = () => {
         </label>
         <textarea
           name="message"
-          className="textarea w-full mt-2 p-0 h-64 focus:outline-none"
+          className="textarea w-full mt-2 h-64 focus:outline-none"
           placeholder="Your Message"
           required
         ></textarea>
@@ -88,7 +88,7 @@ const ContactMe = () => {
           <input
             type="submit"
             value="Send"
-            className="btn btn-wide btn-primary rounded-md mt-10 px-6"
+            className="btn btn-wide btn-primary rounded-md mt-10 px-6 text-white"
           />
         </div>
       </form>

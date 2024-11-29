@@ -6,7 +6,7 @@ const HomeProfile = () => {
     <div className="w-full px-4 lg:hidden flex md:flex-row items-center flex-col py-6">
       <div className="md:w-1/2 w-full flex md:flex-col flex-row justify-center items-center mb-6">
         <div className="flex md:flex-col flex-row justify-between md:h-28 h-auto md:w-auto w-full">
-          <h2 className="text-4xl font-bold text-[#03C988]">Badhon</h2>
+          <h2 className="text-4xl font-bold text-[#bad95c]">Badhon</h2>
           <h2 className="text-white leading-[20px]">
             Full-Stack
             <br />
