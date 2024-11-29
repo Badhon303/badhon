@@ -8,9 +8,9 @@ import MobileNav from "../components/Navbar/MobileNav"
 
 const Main = () => {
   return (
-    <div className="max-w-[1440px] mx-auto flex gap-10 lg:px-4 md:px-8 px-4">
+    <div className="max-w-[1600px] mx-auto flex gap-10 lg:px-4 md:px-8 px-4">
       <Suspense fallback={<Loader />}>
-        <div className="w-[380px] lg:block hidden">
+        <div className="w-[400px] lg:block hidden">
           <Profile />
         </div>
         <div className="lg:max-w-[1000px]">

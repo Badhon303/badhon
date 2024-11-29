@@ -11,16 +11,16 @@ const AboutMe = () => {
     <section id="about" className="mb-16">
       <SectionTitle props={props} />
       <SectionHead>
-        Passionate Web Developer with a Dedication to{" "}
-        <span className="text-primary">Continuous Learning</span>
+        Passionate <span className="text-primary">Web Developer</span> with a
+        Dedication to Continuous Learning
       </SectionHead>
       <div data-aos="fade-up" data-aos-delay={"40"}>
-        <p className="text-white text-justify max-w-[800px]">
+        <p className="text-white text-justify">
           I discovered a passion for web development early on, and the challenge
           of creating functional and visually appealing experiences continues to
           drive me. With over 5 years of experience, I excel in both front-end
           and back-end development. I've independently developed 12 projects,
-          always seeking new challenges to further grow my skills. <br />
+          always seeking new challenges to further grow my skills. <br /> <br />
           Dedicated to continuous learning, I actively seek out knowledge
           through books, online tutorials, and industry conferences.
           Additionally, I participate in online developer communities, fostering

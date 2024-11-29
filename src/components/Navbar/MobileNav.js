@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const MobileNav = () => {
   return (
-    <div className="flex flex-row justify-between py-3 px-9 bg-base-100 border-[1px] border-accent rounded-full">
+    <div className="flex flex-row justify-between py-3 px-9 bg-[#121729] border-[1px] border-accent rounded-full">
       <Link to="/" className="icon flex flex-col items-center gap-1">
         <lord-icon
           src="https://cdn.lordicon.com/osuxyevn.json"
