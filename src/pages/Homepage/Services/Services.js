@@ -10,21 +10,21 @@ const Services = () => {
   const services = [
     {
       id: 1,
-      service: "Frontend Web Development",
+      service: "Next JS Development",
       details:
-        "I can convert any psd or Figma file into mobile or tab responsive web application. Capable of doing project in clean code.",
+        "I can transform design mockups (PSD, Figma) into pixel-perfect, responsive web applications using modern frontend technologies like Next.js and React.js. I prioritize clean, maintainable code and optimal user experiences.",
     },
     {
       id: 2,
-      service: "Next JS Development",
+      service: "Backend Development",
       details:
-        "I have extensive experience in developing web applications with Next.js and React JS.",
+        "I have a strong foundation in building robust and scalable backend systems using Node, Express, Hono js. I can design and implement RESTful APIs to power data-driven applications, leveraging databases like MySQL, PostgreSQL, SQLite and MongoDB.",
     },
     {
       id: 3,
-      service: "Full Stack Development",
+      service: "Deployment",
       details:
-        "With the Frontend I am skilled in Node JS, Express, JWT, MongoDB and PostgreSQL. Proficient in implementing Strapi, Firebase.",
+        "As a full-stack developer, I can build end-to-end web applications. I have experience with the tools like Git, Docker, and cloud platforms. This allows me to handle everything from front-end design to back-end development and deployment.",
     },
   ]
   const props = {
