@@ -12,7 +12,7 @@ const Services = () => {
       id: 1,
       service: "Next JS Development",
       details:
-        "I can transform design mockups (PSD, Figma) into pixel-perfect, responsive web applications using modern frontend technologies like Next.js and React.js. I prioritize clean, maintainable code and optimal user experiences.",
+        "I can transform design mockups (PSD, Figma) into pixel-perfect, responsive web applications using modern frontend technologies like Next JS, Tailwind, Redux, Zustand, Shadcn UI. I prioritize clean, maintainable code and optimal user experiences.",
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ const Services = () => {
       id: 3,
       service: "Deployment",
       details:
-        "As a full-stack developer, I can build end-to-end web applications. I have experience with the tools like Git, Docker, and cloud platforms. This allows me to handle everything from front-end design to back-end development and deployment.",
+        "As a full-stack developer, I can build end-to-end web applications. I have experience with the tools like Git, Docker, cloud platforms, Nginx, Pm2, Certbot etc. This allows me to handle everything from front-end design to back-end development and deployment.",
     },
   ]
   const props = {
