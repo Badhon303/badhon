@@ -45,8 +45,8 @@ const Services = () => {
             data-aos="fade-up"
             data-aos-delay={`${(index % 6) * 100 + 100}`}
           >
-            {index === 0 && <HiOutlineCode className="text-[40px]" />}
-            {index === 1 && <TbBrandNextjs className="text-[40px]" />}
+            {index === 0 && <TbBrandNextjs className="text-[40px]" />}
+            {index === 1 && <HiOutlineCode className="text-[40px]" />}
             {index === 2 && <FiCodesandbox className="text-[40px]" />}
             <div>
               <h2 className="lg:text-2xl md:text-2xl text-xl mt-3 lg:font-normal md:font-normal font-bold">
