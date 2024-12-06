@@ -108,6 +108,16 @@ const MySkills = () => {
           name: "JWT Auth",
           icon: "https://media-exp1.licdn.com/dms/image/D4D12AQHW9aRSWIOMxQ/article-cover_image-shrink_600_2000/0/1657421703592?e=2147483647&v=beta&t=nKygyfSDFwgPdEoC-nEkogMS0527SBa8z8D_FqUr-us",
         },
+        {
+          id: 6,
+          name: "Passport JS",
+          icon: "https://i.ibb.co.com/tJvB5Ss/images.png",
+        },
+        {
+          id: 7,
+          name: "Joi",
+          icon: "https://i.ibb.co.com/6YwHzDW/joi-Transparent.png",
+        },
       ],
     },
     {
@@ -129,6 +139,11 @@ const MySkills = () => {
           name: "MySQL",
           icon: "https://img.icons8.com/color/48/my-sql.png",
         },
+        {
+          id: 4,
+          name: "SQLite",
+          icon: "https://i.ibb.co.com/PtHCXSM/avatar.png",
+        },
       ],
     },
     {
@@ -145,11 +160,11 @@ const MySkills = () => {
           name: "Python",
           icon: "https://img.icons8.com/color/48/python--v1.png",
         },
-        // {
-        //   id: 3,
-        //   name: "C",
-        //   icon: "https://img.icons8.com/color/48/c-programming.png",
-        // },
+        {
+          id: 3,
+          name: "Embedded C",
+          icon: "https://i.ibb.co.com/r2TjbK5/TQFP-32-Photo.png",
+        },
       ],
     },
     {
@@ -178,7 +193,7 @@ const MySkills = () => {
         },
         {
           id: 5,
-          name: "AWS",
+          name: "AWS Services",
           icon: "https://img.icons8.com/color/48/000000/amazon-web-services.png",
         },
         {
@@ -191,16 +206,16 @@ const MySkills = () => {
           name: "Nginx",
           icon: "data:image/webp;base64,UklGRvYEAABXRUJQVlA4WAoAAAAQAAAANwAANwAAQUxQSDoCAAARkERreyFNqXZpbNu2be9t282xbdv2zMq2bdvt/quSRTLdqa/O7CNiAhB3sez6J4831XEg6GqvuxFMYjc7uiBZxEId9kQJIQTj8J42WQQoWcq23vAiRP4ZfLujrg2EUrbK6HNRQmOKEO3O2BK5ZcPERv69X3SS6pcjcxqJxljy9dp6Xycc8Zt9Q7JZDMjWas3LYIRw1YJv1jRWeSnVhp2IEwPxpZ7FRC7pex1/+IcYGv1wqqMtJUeuFpufhXVidNqXnU0zCEk5m2x7+gcTiKE3O2sn4So5+kYME6jasyGKjWFtcuQrJpD/7KxnoaTREQJ9mJXKMFEDN8PFmKCDm6RQ6cdo4NwSw6uDG6tS6ngNnDsdw2+WdH4dnCcDpQY0cG6G4tPhZaTkgFlEHzxvJsrlh+fOzPDB82ZheOF5WB54/swM9//Dm4ExzixOE/hUymWCgEI5TDBRYrjNYvdicAGRsrrhTWZYJsKbLlG2mfAWqpRrWAJaaGB6ylb7WAQU/rSwuoMSbHm998NQMPl7dWguyUIhhGwNd30IYQA6jj5c39yFkhUyN1rzPGwQJvjvi1X1cskoVanThZdBY7SXx7uLiKdYdsBFDfPTw0e7VFAQ5wx1drwPRrlg/Pv+kibZEXdByNzrwCvMQ7+3uV9Oh8CPrrPo0OdUMPl5cEEDZLitQKXhVyLJpV0fXCiH0ziEshVruumDnsTbvfUQVIeSpeYhzEocrpnVDoZ29nxC3eovI/A5ln37sbAg4g9WUDgglgIAAPANAJ0BKjgAOAA+MQyMRiIREQqAIAMEtQBXKoAczBZDwH4k86zyl245gOyudB4m3TN8gD+yekt1AH9k/xnXHegB0oH7X+jM78yscfRAntU7FvPjzynL9gDisBn6MKA0Dt4E6Yqr+pnrStzLUxxWfHMMs5AzL9fTgAD+8I16ChxVpWxtPt8nZizDmp+adlKMZqgQcnNVQNIrDTEd/8UHzYSYFqNfhiewGLbubUPbvTuukSFJWKurZbhiXYfMEdMGgLBCmeYPtIrrgh1KoLrvVtfQnmsG8AgiX9BhPyyf1LQu8/NbmG4Otzjec8KWv2q6mMPx6MnIUn+IwribRStTivA45BYmMVFEId0VhhlZVW+gDGgf+AidRSVkYzI+aXbvSJ/iBHqb7oVl3uyL8X3/sIx1GrVP8ccdMRX5neDQbFCYRRnu4HL7ieB+4q7lNW8rA7W/RI3SCfblHaVXn3fTesC0w2rbveGaDfqlrhe8EUz/fRgAqenmPW9v4NdMvun4uo6iSBbH+eZSqlmIPgYgOfXj5b+1fWnTvKBxN/QV1aKuxENsAMXaIzpNw/owKQTW1vjzt/Cq1f5xmiMpswBAXAwiRty2zKvRzL6+DRN1RAbu8Fk7Hv/Blt0M2mvvpv898zxhm73KoSePouji/h/QgyX5rWdnnle3X6jcjbKihBId3We12q3nfzWC9gmxtLUHMJ2DPpqFsumJPnsKAndqfrrpT65xZ6HGi9oCuTFUsSWjaVkRO6GyozMPq9OKPlTlgKqTvgk4rpxdMUtEBes3/jf9sVlMcVG3XPVtqVIqWzplgLLaiN3urphMN041nXXvPiHrIGTFSDckuNAw2Kg6gjgWEq3r4/9riYc6Ylfo49vTwjoAAAAA",
         },
-        // {
-        //   id: 6,
-        //   name: "Linux",
-        //   icon: "https://img.icons8.com/color/48/linux--v1.png",
-        // },
-        // {
-        //   id: 3,
-        //   name: "Netlify",
-        //   icon: "https://cdn.iconscout.com/icon/free/png-256/netlify-3628945-3030170.png",
-        // },
+        {
+          id: 6,
+          name: "Linux",
+          icon: "https://img.icons8.com/color/48/linux--v1.png",
+        },
+        {
+          id: 7,
+          name: "Certbot",
+          icon: "https://i.ibb.co.com/4Z2GftK/certbot.png",
+        },
         // {
         //   id: 7,
         //   name: "Vercel",

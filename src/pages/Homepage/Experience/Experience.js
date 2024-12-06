@@ -38,7 +38,7 @@ const Experience = () => {
     },
     {
       duration: "December 2011 - December 2015",
-      company: "EAST WEST UNIVERSITY",
+      company: "East West University",
       role: "B.Sc. in Electrical and Electronic Engineering",
       description: "CGPA: 3.04",
     },
@@ -49,7 +49,7 @@ const Experience = () => {
       description: "GPA: 4.50",
     },
     {
-      duration: "2009 - 2011",
+      duration: "2007 - 2009",
       company: "Rangpur Zilla School",
       role: "Science",
       description: "GPA: 5.00",
@@ -70,10 +70,10 @@ const Experience = () => {
         >
           <div className="relative pl-[74px] pb-[68px] opacity-100 translate-x-0 translate-y-0">
             <div className="absolute w-3 h-3 transition-[0.3s] rounded-[50%] -left-1.5 top-[7px] bg-primary"></div>
-            <span className="block transition-[0.3s] mb-7 text-primary">
+            <span className="block transition-[0.3s] mb-7 text-white">
               {duration}
             </span>
-            <h2 className="text-2xl font-light text-white mb-[5px]">
+            <h2 className="text-2xl font-light text-primary mb-[5px]">
               {company}
             </h2>
             {/* <p className="text-[13px] text-[#999999] mb-[18px]">{company}</p> */}
